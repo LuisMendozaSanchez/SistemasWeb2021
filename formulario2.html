@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <div class="container-fluid">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Dirección de correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nuncaa compartiremos tu correo con nadie más.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+            </div>
+            <!-- No se genera un envío si es de type button -->
+            <button type="button" class="btn btn-primary" id="btnEnviar1">Enviar1</button>
+            <!-- Genera un envío y querystring
+            <button type="submit" class="btn btn-primary">Enviar1</button>-->
+            <!-- Genera un envío y querystring -->
+            <button class="btn btn-dark" onclick="window.alert('Envíar2')">Enviar2</button>
+            <!-- Genera un envío y no hay querystring -->
+            <a href="" class="btn btn-danger" onclick="window.alert('Envíar3')">enviar3</a>
+            <!-- NO genera un envío y NO hay querystring -->
+            <a class="btn btn-primary" onclick="boton4()">enviar4</a>
+            <!-- NO genera un envío y NO hay querystring -->
+            <a class="btn btn-primary" id="btnEnviar5">enviar5</a>
+          </form>
+    </div>
+</body>
+<script src="formulario2.js"></script>
+</html>

@@ -1,0 +1,10 @@
+h1{
+    color: rgb(0, 184, 24);
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom-width: 100;
+    border-bottom-style: solid;
+    border-left-width: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
