@@ -1,8 +1,3 @@
-// defino dos constantes que recuperan los valores del formulario
-//var email = document.getElementById("exampleInputEmail1").value;
-//var pass = document.getElementById("exampleInputPassword1").value;
-
-
 // uso del llamado get
 var btnGet = document.getElementById("btnGet");
 btnGet.addEventListener("click", function () {
